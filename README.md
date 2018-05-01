@@ -1,4 +1,4 @@
-# Latest donations for Macmillan charity [![Build Status](https://travis-ci.org/PyColors/add-to-basket.svg?branch=master)](https://travis-ci.org/PyColors/add-to-basket)
+# Add to Basket [![Build Status](https://travis-ci.org/PyColors/add-to-basket.svg?branch=master)](https://travis-ci.org/PyColors/add-to-basket)
 An application to display a customer able to add a product to their basket.
 
 #### [Demo](http://www.pycolors.com/v2/git/add-to-basket)
