@@ -25,10 +25,16 @@ class Cart extends Component {
       );
     });
 
+    if (cartList == '') {
+      return null;
+    }
+
     return (
+
       <Panel>
         <div className="cart">{cartList}</div>
       </Panel>
+
     );
   }
 }
