@@ -14,6 +14,8 @@
   },
   "author": "Py Colors",
   "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
     "setupFiles": [
       "./src/test/jestsetup.js"
     ],
@@ -21,7 +23,6 @@
       "enzyme-to-json/serializer"
     ]
   },
-  "author": "Py Colors",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.14.0",
