@@ -1,4 +1,15 @@
 language: node_js
+
 node_js:
- - "node"
- 
+  - "stable"
+  
+os: osx
+
+script:
+  - yarn test
+  - yarn build
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
